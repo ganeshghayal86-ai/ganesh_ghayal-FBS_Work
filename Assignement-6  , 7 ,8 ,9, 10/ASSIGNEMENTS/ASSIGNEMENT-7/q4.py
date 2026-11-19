@@ -1,0 +1,26 @@
+#q4.property
+#         1 
+#       2 3 2
+#     3 4 5 4 5
+#   4 5 6 7 6 5 4
+# 5 6 7 8 9 8 7 6 5
+
+for i in range(1,6):
+    for j in range(1,6-i):
+        print(' ',end=' ')
+    if i==1:
+        print(1,end=' ')
+    elif i==2:
+        print('2 3 2',end='')
+    elif i==3:
+        print('3 4 5 4 5',end='')
+    elif i==4:
+        print('4 5 6 7 6 5 4',end='')
+    else:
+        print('5 6 7 8 9 8 7 6 5',end='')
+
+    
+
+    print()
+        
+            
